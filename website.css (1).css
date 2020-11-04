@@ -1,0 +1,241 @@
+/*
+    Background Color :         #39FF33  
+    Tittle color :             #33FCFF
+    Text color :               #fff
+    Text Dark Color :          #111209
+    Table Heading Color :      #48E528
+    Table Alternatif Color :   #A3EA94
+*/
+
+body {
+    background-color:  #25AAOB
+    color: #FAEFOE
+    font-family :"open sans", Arial, nulvetice, sans-serif;
+    font-size   :20px;
+    font-weight :400;
+    padding:17px;
+    margin 0:
+}
+
+.tm-container{
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tm-main-content: #080808;
+
+tm-text-white{
+    color: white;
+}
+
+.tm-page-head-container{
+    text-align: center;
+}
+
+.tm-page-header{
+    display: inline-block;
+    vertical-align: baseline;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.tm-main-content{
+    color: white;
+}
+
+#tm-intro-image{
+    background-image: -moz-element(../website/bola.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 450px;
+}
+
+.tm-section-header{
+    color: rgb(8, 2, 2);
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.tm-page-header{
+    display: inline-block;
+    vertical-align: baseline;
+    color: rgb(8, 2, 2);
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.tm-page-icon{
+    display: inline-block;
+    vertical-align: baseline;
+    padding: 20px;
+
+table{
+    width: 200px;
+    border-spacing: 5;
+}
+
+th{
+    color: #000;
+    font-weight: 500;
+    font-size: 1,5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+td{
+    text-align: center;
+    padding: 15px 20px;
+}
+
+.tm-text-left{
+    text-align: center;
+}
+
+trinch-chield(add) { 
+    background: black;
+}
+
+tr.tm-tr-header{
+    background-color: black;
+    height: 60px;
+}
+
+.tm-section{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.tm-section-small{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+p{
+    font-size: 2rem;
+    line-height: 2;
+}
+
+.tm-ob-0{margin-bottom: 0;}
+img{ max-width: 200%;}
+figure{margin: 0;}
+figcaption{text-align: center;}
+
+figcaption span{
+    display: block;
+    color: black;
+    font-size: 20px;
+}
+
+.tm-item-name{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.tm-special-item{
+    display: flex;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.tm-special-item 1 {font-size: 1,5rem;}
+.tm-special-link-container {display: inline-block;}
+
+.tm-special-link{
+    color: rgb(243, 244, 247);
+    background-color: rgb(8, 2, 2);
+    border-radius: 3px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+    text-decoration: solid;
+    transition: all 4x none;
+}
+.tm-special-link hover {background-color: seagreen;}
+
+.tm-content-link{
+    color: springgreen;
+    font-weight: 600;
+    text-decoration: solid;
+}
+
+.tm-footer-text{
+    font-size: 1rem;
+    margin-top: 40px;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+.tm-footer-link{
+    color: turquoise;
+    text-decoration: solid;
+}
+
+.tm-footer-link :hover {color: teal;}
+.tm-special-item{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+hr{
+    width: 65%;
+    border: 1px solid #FFFF;
+}
+
+@media (max-width: 500px) {
+    .tm-special-item{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .tm-special-item{
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+}
+
+@media (max-width: 400px) {
+    .tm-special-item{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .tm-special-item{
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+}
+
+@media (max-width: 300px) {
+    .tm-responsive-table{
+        overflow-x: auto;
+    }
+    table{
+        width: auto;
+    }
+    .tm-special-item{
+       flex-direction: column;
+    }
+    .tm-special-item{
+       margin-bottom: 30px;
+    }
+    figcaption p{
+        margin-bottom: 0;
+        line-height: 2;
+    }
+}
